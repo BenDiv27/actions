@@ -1,0 +1,22 @@
+persona:
+  nombre: Brahian
+  edad: 31
+  ciudad: popayan
+  items: 
+    - item1
+    - item2
+    - item3
+  
+  items2:
+    - item1: hola
+    - item2: como
+    - item3: estas
+
+script: |
+  touch hola.txt
+  echo "hola mundo"
+
+# script: >
+#   hola
+#   hola
+#   test

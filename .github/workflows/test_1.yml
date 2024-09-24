@@ -1,0 +1,15 @@
+#Con Github Action puedo automatizar procesos en respuesta a eventos del repositorio
+#como push, pull, commits
+
+name: Hola Mundo # Nombre del workflow - flujo de trabajo
+
+on: [push]  # Evento, se ejecuta cuando se realice algun caso, por ejemplo un push
+
+jobs: # Permiten ejecutar elementos del servidor
+  hola: # Nombre del jobs
+    runs-on: ubuntu-latest # Sistema operativo para ejecutar los jobs
+
+    steps: # Acciones
+    - name: Hola mundo2 # nombre del step
+      run: echo "Hola mundo" # Correr un comando
+
